@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Malik",
+    "picture": "https://i.ibb.co.com/d4DcvXXD/1c852ea928150dfcf54c5457dbca0a35.jpg",
+    "email": "aarav.malik@mailhub.io",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["network", "startup"],
+    "bio": "Met during a startup pitch event. Passionate about building SaaS tools.",
+    "goal": 10,
+    "next_due_date": "July 28, 2025"
+  },
+  {
+    "id": 2,
+    "name": "Isabella Cruz",
+    "picture": "https://i.ibb.co.com/TxR0ygRn/1fe5a0d8604e7309b8efc203fef5ea48.jpg",
+    "email": "isabella.cruz@designflow.co",
+    "days_since_contact": 1,
+    "status": "on track",
+    "tags": ["design", "ui"],
+    "bio": "Creative UI designer who loves minimal interfaces and bold typography.",
+    "goal": 20,
+    "next_due_date": "August 20, 2025"
+  },
+  {
+    "id": 3,
+    "name": "Noah Bennett",
+    "picture": "https://i.ibb.co.com/tMwv0q14/8e10caee2335ed02191cdb251bbb62e8.jpg",
+    "email": "noah.b@devmail.dev",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["backend", "api"],
+    "bio": "Backend engineer focused on scalable APIs and system design.",
+    "goal": 14,
+    "next_due_date": "July 15, 2025"
+  },
+  {
+    "id": 4,
+    "name": "Maya Patel",
+    "picture": "https://i.ibb.co.com/DgM3MBs4/8429c084dbe95e34ffb74753e1a93071.jpg",
+    "email": "maya.patel@creativehub.com",
+    "days_since_contact": 6,
+    "status": "on track",
+    "tags": ["creative", "branding"],
+    "bio": "Brand strategist who enjoys crafting meaningful brand identities.",
+    "goal": 12,
+    "next_due_date": "July 30, 2025"
+  },
+  {
+    "id": 5,
+    "name": "Liam Carter",
+    "picture": "https://i.ibb.co.com/QFWcBYyS/31275c2225d0bd9b63ec97d2521ad8ca.jpg",
+    "email": "liam.carter@fitlife.io",
+    "days_since_contact": 4,
+    "status": "on track",
+    "tags": ["fitness", "lifestyle"],
+    "bio": "Gym partner and accountability buddy for daily workouts.",
+    "goal": 7,
+    "next_due_date": "July 26, 2025"
+  },
+  {
+    "id": 6,
+    "name": "Zara Ahmed",
+    "picture": "https://i.ibb.co.com/nq2cybv4/a708b616bb81cdb99232ebd6bfe868ea.jpg",
+    "email": "zara.ahmed@university.edu",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["study", "research"],
+    "bio": "Research partner working on AI-based academic projects.",
+    "goal": 21,
+    "next_due_date": "July 22, 2025"
+  },
+  {
+    "id": 7,
+    "name": "Ethan Brooks",
+    "picture": "https://i.ibb.co.com/mVq05RTf/bb2d16d0967309410f863be70b449c82.jpg",
+    "email": "ethan.brooks@hirelink.com",
+    "days_since_contact": 50,
+    "status": "overdue",
+    "tags": ["career", "recruit"],
+    "bio": "Tech recruiter helping developers land remote opportunities.",
+    "goal": 40,
+    "next_due_date": "June 5, 2025"
+  },
+  {
+    "id": 8,
+    "name": "Sophie Laurent",
+    "picture": "https://i.ibb.co.com/Gf4cfGFR/d3f8c8cb88c1d423148b1ce1157f55db.jpg",
+    "email": "sophie.laurent@visuals.io",
+    "days_since_contact": 2,
+    "status": "on track",
+    "tags": ["photography", "art"],
+    "bio": "Street photographer with a love for capturing urban life.",
+    "goal": 60,
+    "next_due_date": "September 10, 2025"
+  },
+  {
+    "id": 9,
+    "name": "Daniel Kim",
+    "picture": "https://i.ibb.co.com/hFWjL0Q1/d441164fcadaa52ceab7924f49a3faeb.jpg",
+    "email": "daniel.kim@clientworks.net",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["client", "project"],
+    "bio": "Client for a web dashboard project with ongoing iterations.",
+    "goal": 14,
+    "next_due_date": "July 19, 2025"
+  },
+  {
+    "id": 10,
+    "name": "Olivia Green",
+    "picture": "https://i.ibb.co.com/SXC2k2X8/Nailed-it.jpg",
+    "email": "olivia.green@ecoimpact.org",
+    "days_since_contact": 7,
+    "status": "on track",
+    "tags": ["community", "eco"],
+    "bio": "Volunteer focused on sustainability and green tech initiatives.",
+    "goal": 30,
+    "next_due_date": "August 3, 2025"
+  }
+]
