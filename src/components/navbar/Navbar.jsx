@@ -8,17 +8,20 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const linkClass = ({ isActive }) =>
-    `flex items-center gap-2 px-4 py-2 rounded-lg transition ${
-      isActive ? "bg-white/20 text-white" : "text-gray-300 hover:text-white"
+    `font-semibold flex items-center gap-2 px-4 py-2 rounded-lg transition ${
+      isActive ? "bg-green-400" : "hover:underline"
     }`;
 
   return (
-    <div className="backdrop-blur-md bg-[#111827]/80 border-b border-gray-800">
+    <div className="backdrop-blur-md border-b-2 border-gray-200">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
-        <h1 className="text-xl font-bold text-white">keenKeeper</h1>
+        <h1 className="text-2xl font-bold">
+          keen
+          <span className="text-gray-400">Keeper</span>
+        </h1>
 
         <div className="hidden md:flex items-center gap-2">
-          <NavLink to="/" end className={linkClass}>
+          <NavLink to="/" className={linkClass}>
             <RiHome2Line /> Home
           </NavLink>
           <NavLink to="/timeline" className={linkClass}>
@@ -29,17 +32,14 @@ const Navbar = () => {
           </NavLink>
         </div>
 
-        <button
-          onClick={() => setOpen(!open)}
-          className="md:hidden text-white text-2xl"
-        >
+        <button onClick={() => setOpen(!open)} className="md:hidden text-2xl">
           {open ? <HiX /> : <HiMenu />}
         </button>
       </div>
 
       {open && (
         <div className="md:hidden px-4 pb-4 flex flex-col gap-2">
-          <NavLink to="/" end className={linkClass}>
+          <NavLink to="/" className={linkClass}>
             <RiHome2Line /> Home
           </NavLink>
           <NavLink to="/timeline" className={linkClass}>
