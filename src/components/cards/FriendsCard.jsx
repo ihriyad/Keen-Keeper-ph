@@ -2,11 +2,11 @@ import React from "react";
 import { NavLink } from "react-router";
 
 const FriendsCard = ({ friend }) => {
-  const { id, picture, name, connected, status, tag } = friend;
+  const { id, picture, name, connected, status, tags } = friend;
   return (
     <NavLink
       to={`/home/${id}`}
-      className="card flex justify-center items-center flex-col border-2 border-gray-200 p-6 rounded-md transition-all duration-300 hover:scale-105 hover:shadow-xl"
+      className="card flex justify-center items-center flex-col border border-gray-200 p-6 rounded-md transition-all duration-300 hover:scale-105 hover:shadow-xl"
     >
       <figure className="w-20 h-20 rounded-full overflow-hidden transition-transform duration-300 hover:scale-110">
         <img
@@ -20,29 +20,29 @@ const FriendsCard = ({ friend }) => {
           {name}
         </h1>
         <p className="text-[#64748bFF] text-center">{connected}day ago</p>
-        <div
-          className="text-center
-         bg-green-400/50
-          px-3 rounded-2xl
-          font-medium
-          text-[12px]
-          mb-4
-          "
-        >
-          {tag}
+        <div className="text-center space-x-1 ">
+          {tags.map((tag, i) => (
+            <div
+              key={i}
+              className="badge rounded-full bg-gray-400/20 text-black"
+            >
+              {tag}
+            </div>
+          ))}
         </div>
         <div
           className={`
+            w-full
             badge rounded-full 
-            text-white font-medium 
-            py-3 px-4 
+             font-medium 
+            py-3 px-4 mt-3
             ${
               status === "overdue"
-                ? "badge-error"
+                ? "bg-red-400/50"
                 : status === "almost due"
-                  ? "badge-warning"
+                  ? "bg-amber-100"
                   : status === "on track"
-                    ? "badge-success"
+                    ? "bg-green-400/50"
                     : ""
             }`}
         >

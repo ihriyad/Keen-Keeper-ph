@@ -6,7 +6,7 @@
     "email": "aarav.malik@mailhub.io",
     "connected": 9,
     "status": "almost due",
-    "tag": "WORK",
+    "tags": ["Developer", "Designer"],
     "bio": "Met during a startup pitch event. Passionate about building SaaS tools.",
     "goal": 10,
     "next_due_date": "July 28, 2025"
@@ -18,7 +18,7 @@
     "email": "isabella.cruz@designflow.co",
     "connected": 1,
     "status": "on track",
-    "tag": "FAMILY",
+    "tags": ["Ui/Ux", "Designer"],
     "bio": "Creative UI designer who loves minimal interfaces and bold typography.",
     "goal": 20,
     "next_due_date": "August 20, 2025"
@@ -30,7 +30,7 @@
     "email": "noah.b@devmail.dev",
     "connected": 15,
     "status": "overdue",
-    "tag": "WORK",
+    "tags": ["Backend", "Developer"],
     "bio": "Backend engineer focused on scalable APIs and system design.",
     "goal": 14,
     "next_due_date": "July 15, 2025"
@@ -42,7 +42,7 @@
     "email": "maya.patel@creativehub.com",
     "connected": 6,
     "status": "on track",
-    "tag": "FRIEND",
+    "tags": ["Manager", "Designer"],
     "bio": "Brand strategist who enjoys crafting meaningful brand identities.",
     "goal": 12,
     "next_due_date": "July 30, 2025"
@@ -54,7 +54,7 @@
     "email": "liam.carter@fitlife.io",
     "connected": 4,
     "status": "on track",
-    "tag": "FRIEND",
+    "tags": ["Friend", "Gymnastic"],
     "bio": "Gym partner and accountability buddy for daily workouts.",
     "goal": 7,
     "next_due_date": "July 26, 2025"
@@ -66,7 +66,7 @@
     "email": "zara.ahmed@university.edu",
     "connected": 18,
     "status": "almost due",
-    "tag": "WORK",
+    "tags": ["Family", "Friend"],
     "bio": "Research partner working on AI-based academic projects.",
     "goal": 21,
     "next_due_date": "July 22, 2025"
@@ -78,7 +78,7 @@
     "email": "ethan.brooks@hirelink.com",
     "connected": 50,
     "status": "overdue",
-    "tag": "FAMILY",
+    "tags": ["Family", "Friend"],
     "bio": "Tech recruiter helping developers land remote opportunities.",
     "goal": 40,
     "next_due_date": "June 5, 2025"
@@ -90,7 +90,7 @@
     "email": "sophie.laurent@visuals.io",
     "connected": 2,
     "status": "on track",
-    "tag": "FRIEND",
+    "tags": ["Family", "Relative"],
     "bio": "Street photographer with a love for capturing urban life.",
     "goal": 60,
     "next_due_date": "September 10, 2025"
@@ -102,7 +102,7 @@
     "email": "daniel.kim@clientworks.net",
     "connected": 11,
     "status": "almost due",
-    "tag": "FAMILY",
+    "tags": ["Developer", "Friend"],
     "bio": "Client for a web dashboard project with ongoing iterations.",
     "goal": 14,
     "next_due_date": "July 19, 2025"
@@ -114,7 +114,7 @@
     "email": "olivia.green@ecoimpact.org",
     "connected": 7,
     "status": "almost due",
-    "tag": "WORK",
+    "tags": ["Volunteer", "Friend"],
     "bio": "Volunteer focused on sustainability and green tech initiatives.",
     "goal": 30,
     "next_due_date": "August 3, 2025"

@@ -17,7 +17,7 @@ const Home = () => {
         </h1>
 
         <p className="text-sm text-gray-500">
-          {friends.length} people in your network
+          Available Friends {friends.length} 
         </p>
       </div>
 
