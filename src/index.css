@@ -5,6 +5,9 @@
 body {
   font-family: "Geist", sans-serif;
 }
+button{
+  cursor: pointer;
+}
 .reveal {
   opacity: 0;
   transform: translateY(10px);

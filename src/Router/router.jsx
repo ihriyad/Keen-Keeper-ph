@@ -4,6 +4,7 @@ import Home from "../Pages/Home/home";
 import Error from "../error/Error";
 import TimeLine from "../Pages/timeline/TimeLine";
 import Stats from "../Pages/stats/Stats";
+import CardDetails from "../Pages/card details/CardDetails";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,9 @@ const router = createBrowserRouter([
       {
         path: "/stats",
         Component: Stats,
+      },
+      {
+        path: "/home/:id", Component: CardDetails
       },
     ],
   },
