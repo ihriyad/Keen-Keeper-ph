@@ -1,16 +1,86 @@
-# React + Vite
+# 🌿 KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**KeenKeeper** is a simple yet powerful relationship management app that helps you stay connected with the people who matter most. It allows you to track interactions, monitor relationship health, and build meaningful connections over time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 📌 **Friend Management**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * Add and view your connections
+  * Track last interaction time
+  * Categorize with tags
 
-## Expanding the ESLint configuration
+* 📊 **Analytics Dashboard**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * Visualize interactions using charts
+  * Track communication patterns (Call, Text, Video)
+
+* 🕒 **Activity Timeline**
+
+  * View all interactions in a clean timeline
+  * Filter by interaction type
+
+* ⚡ **Quick Check-In**
+
+  * Log interactions instantly (Call, Text, Video)
+  * Real-time toast feedback
+
+* 🎯 **Relationship Goals**
+
+  * Set communication goals
+  * Monitor consistency and engagement
+
+---
+
+## 🛠️ Tech Stack
+
+* ⚛️ React (Vite)
+* 🎨 Tailwind CSS
+* 📊 Recharts
+* 🔔 React Toastify
+* 🧠 Context API (State Management)
+
+---
+
+## 💡 How It Works
+
+KeenKeeper helps you maintain relationships by:
+
+* Tracking how often you connect with people
+* Alerting you when a connection needs attention
+* Giving visual insights into your communication habits
+
+---
+
+## 🎯 Use Cases
+
+* Stay in touch with friends and family
+* Manage professional relationships
+* Track networking interactions
+* Build consistent communication habits
+
+---
+
+## 📁 Project Structure
+
+* `components/` → UI components (cards, navbar, etc.)
+* `pages/` → Main pages (Home, Stats, Timeline)
+* `context/` → Global state (interactions)
+* `hooks/` → Custom hooks (data fetching)
+
+---
+
+## ✨ Future Improvements
+
+* Persistent data (LocalStorage / Database)
+* Authentication system
+* Reminders & notifications
+* Advanced analytics
+
+---
+
+## 📌 Conclusion
+
+KeenKeeper is designed to make relationship management simple, intentional, and insightful — helping you never lose touch again.
