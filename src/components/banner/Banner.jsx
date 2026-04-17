@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
 import useFriends from "../../hooks/useFriends";
-import Card from "./card";
+import Card from "./Card"
 
 const Banner = () => {
   const { friends, loading } = useFriends();
