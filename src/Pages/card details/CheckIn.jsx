@@ -14,19 +14,19 @@ const CheckIn = ({ newFriend }) => {
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 rounded-md w-11/12 lg:w-12/12 mx-auto">
         <button
           onClick={() => handleInteraction("call", name)}
-          className="flex justify-center items-center flex-col gap-4 p-4 rounded-md hover:bg-gray-200  border border-blue-400 hover:border-none"
+          className="flex justify-center items-center flex-col gap-4 p-4 rounded-md hover:bg-gray-200  border border-gray-400 hover:border-none"
         >
           <FiPhoneCall /> <p>Call</p>
         </button>
         <button
           onClick={() => handleInteraction("text", name)}
-          className="flex justify-center items-center flex-col gap-4 p-4 rounded-md hover:bg-gray-200 border border-blue-400 hover:border-none"
+          className="flex justify-center items-center flex-col gap-4 p-4 rounded-md hover:bg-gray-200 border border-gray-400 hover:border-none"
         >
           <RiMessage2Line /> <p>Text</p>
         </button>
         <button
           onClick={() => handleInteraction("video", newFriend.name)}
-          className="flex justify-center items-center flex-col gap-4 p-4 rounded-md hover:bg-gray-200 border border-blue-400 hover:border-none"
+          className="flex justify-center items-center flex-col gap-4 p-4 rounded-md hover:bg-gray-200 border border-gray-400 hover:border-none"
         >
           <GoDeviceCameraVideo /> <p>Video</p>
         </button>

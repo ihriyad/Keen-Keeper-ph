@@ -13,7 +13,7 @@ const Navbar = () => {
     }`;
 
   return (
-    <div className="backdrop-blur-md border-b-2 border-gray-200">
+    <div className="sticky top-0 z-50 backdrop-blur-md border-b border-gray-200 bg-white/70">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
         <h1 className="text-2xl font-bold">
           keen

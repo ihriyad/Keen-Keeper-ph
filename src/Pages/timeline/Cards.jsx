@@ -2,7 +2,7 @@ import React from "react";
 
 const Cards = ({ data }) => {
   return (
-    <div className="flex gap-4 items-start border-l-2 border-[#244d3f] pl-4 py-3">
+    <div className="flex gap-4 items-start border-l-2 border-[#244d3f] pl-4 py-3 shadow-xl">
       <div className="w-10 h-10 shrink-0">
         <img
           src={data.image}

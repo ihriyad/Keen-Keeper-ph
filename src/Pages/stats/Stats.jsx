@@ -3,6 +3,7 @@ import Chart from "./Chart";
 import { useContext } from "react";
 import { TbChartPieOff } from "react-icons/tb";
 import CommunicationContext from "../../context/ContextHook";
+import { NavLink } from "react-router";
 
 const Stats = () => {
   const { interaction } = useContext(CommunicationContext);
@@ -32,6 +33,11 @@ const Stats = () => {
             <Chart interaction={interaction}></Chart>
           )}
         </div>
+      </div>
+      <div className="flex justify-center">
+        <NavLink to="/">
+          <button className="btn mx-auto w-auto md:w-xl btn-dash">Go Back</button>
+        </NavLink>
       </div>
     </div>
   );

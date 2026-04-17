@@ -24,7 +24,8 @@ const router = createBrowserRouter([
         Component: Stats,
       },
       {
-        path: "/home/:id", Component: CardDetails
+        path: "/home/:id",
+        Component: CardDetails,
       },
     ],
   },

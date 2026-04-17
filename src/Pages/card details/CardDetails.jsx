@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router";
+import { NavLink, useParams } from "react-router";
 import useFriends from "../../hooks/useFriends";
 import Person from "./Person";
 import Aside from "./Aside";
@@ -31,6 +31,13 @@ const CardDetails = () => {
           </div>
         </div>
       )}
+      <div className="flex justify-center mt-6">
+        <NavLink to="/">
+          <button className="btn mx-auto w-auto md:w-xl btn-dash">
+            Go Back
+          </button>
+        </NavLink>
+      </div>
     </div>
   );
 };

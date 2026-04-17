@@ -1,3 +1,4 @@
+import { Mail } from "lucide-react";
 import React from "react";
 import { MdOutlineArchive } from "react-icons/md";
 import { RiNotificationSnoozeLine, RiDeleteBin6Fill } from "react-icons/ri";
@@ -42,7 +43,7 @@ const Person = ({ newFriend }) => {
 
         <p className="text-sm text-gray-500 mt-4">{bio}</p>
 
-        <p className="text-xs text-gray-400 mt-1">{email}</p>
+        <p className="text-md flex gap-3 text-gray-700 mt-1"><Mail></Mail> {email}</p>
       </div>
 
       <div className="space-y-3">

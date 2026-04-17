@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import CommunicationContext from "../../context/ContextHook";
 import { MdOutlineSpeakerNotesOff } from "react-icons/md";
 import Cards from "./Cards";
+import { NavLink } from "react-router";
 
 const TimeLine = () => {
   const { interaction } = useContext(CommunicationContext);
@@ -21,32 +22,32 @@ const TimeLine = () => {
       <div className="flex justify-center gap-3 flex-wrap">
         <button
           onClick={() => setFilter("all")}
-          className={`px-4 py-1.5 rounded-full border ${
-            filter === "all" ? "bg-[#244d3f] text-white" : ""
+          className={`px-4 py-1.5 rounded-md  ${
+            filter === "all" ? "bg-[#244d3f] text-white" : "bg-gray-400/30"
           }`}
         >
           All
         </button>
         <button
           onClick={() => setFilter("text")}
-          className={`px-4 py-1.5 rounded-full border ${
-            filter === "text" ? "bg-[#244d3f] text-white" : ""
+          className={`px-4 py-1.5 rounded-md  ${
+            filter === "text" ? "bg-[#244d3f] text-white" : "bg-gray-400/30"
           }`}
         >
           Text
         </button>
         <button
           onClick={() => setFilter("call")}
-          className={`px-4 py-1.5 rounded-full border ${
-            filter === "call" ? "bg-[#244d3f] text-white" : ""
+          className={`px-4 py-1.5 rounded-md  ${
+            filter === "call" ? "bg-[#244d3f] text-white" : "bg-gray-400/30"
           }`}
         >
           Call
         </button>
         <button
           onClick={() => setFilter("video")}
-          className={`px-4 py-1.5 rounded-full border ${
-            filter === "video" ? "bg-[#244d3f] text-white" : ""
+          className={`px-4 py-1.5 rounded-md  ${
+            filter === "video" ? "bg-[#244d3f] text-white" : "bg-gray-400/30"
           }`}
         >
           Video
@@ -72,6 +73,11 @@ const TimeLine = () => {
           ))}
         </div>
       )}
+      <div className="flex justify-center">
+        <NavLink to="/">
+          <button className="btn mx-auto w-auto md:w-xl btn-dash">Go Back</button>
+        </NavLink>
+      </div>
     </div>
   );
 };

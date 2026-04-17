@@ -24,7 +24,7 @@ const FriendsCard = ({ friend }) => {
           {tags.map((tag, i) => (
             <div
               key={i}
-              className="badge rounded-full bg-gray-400/20 text-black"
+              className="badge rounded-md py-2 px-3 bg-gray-200 text-black hover:underline"
             >
               {tag}
             </div>
@@ -33,9 +33,10 @@ const FriendsCard = ({ friend }) => {
         <div
           className={`
             w-full
-            badge rounded-full 
+            badge rounded-md 
              font-medium 
-            py-3 px-4 mt-3
+             hover:underline
+            py-4 px-4 mt-3
             ${
               status === "overdue"
                 ? "bg-red-400/50"
